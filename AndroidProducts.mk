@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx215.mk
+    $(LOCAL_DIR)/aosp_pdx215.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pdx215-user \
-    lineage_pdx215-userdebug \
-    lineage_pdx215-eng
+    aosp_pdx215-user \
+    aosp_pdx215-userdebug \
+    aosp_pdx215-eng
