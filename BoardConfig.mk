@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/sony/pdx215
 
+# Header
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
