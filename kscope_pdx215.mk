@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/sony/pdx215/device.mk)
 
 # Inherit some common kscope stuff.
-$(call inherit-product, vendor/kscope/config/common_full_phone.mk)
+$(call inherit-product, vendor/kscope/config/common.mk)
 
 PRODUCT_NAME := kscope_pdx215
 PRODUCT_DEVICE := pdx215
