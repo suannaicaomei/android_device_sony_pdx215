@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The aospOS Project
+# Copyright (C) 2021 The kscopeOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_pdx215.mk
+    $(LOCAL_DIR)/kscope_pdx215.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_pdx215-user \
-    exthm_pdx215-userdebug \
-    exthm_pdx215-eng
+    kscope_pdx215-user \
+    kscope_pdx215-userdebug \
+    kscope_pdx215-eng
