@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_pdx215.mk
+    $(LOCAL_DIR)/corvus_pdx215.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_pdx215-user \
-    exthm_pdx215-userdebug \
-    exthm_pdx215-eng
+    corvus_pdx215-user \
+    corvus_pdx215-userdebug \
+    corvus_pdx215-eng
