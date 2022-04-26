@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from pdx215 device
 $(call inherit-product, device/sony/pdx215/device.mk)
 
-# Inherit some common exthm stuff.
-$(call inherit-product, vendor/exthm/config/common.mk)
+# Inherit some common corvus stuff.
+$(call inherit-product, vendor/corvus/config/common.mk)
 
-PRODUCT_NAME := exthm_pdx215
+PRODUCT_NAME := corvus_pdx215
 PRODUCT_DEVICE := pdx215
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
